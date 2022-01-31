@@ -1,0 +1,58 @@
+body {
+    background-color: #fcfcfc;
+  }
+  
+#page-header {
+    margin-bottom: 25px;
+    background: #192a31d0;
+    color: white;
+    border-bottom: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 
+                0 1px 5px 0 rgba(0,0,0,0.12), 
+                0 3px 1px -2px rgba(0,0,0,0.2);
+  }
+  
+footer {
+    background-color: #ff9800;
+    color: white;
+    padding: 30px;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 2px;
+    padding: 0 15px 15px 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 
+                0 1px 5px 0 rgba(0,0,0,0.12), 
+                0 3px 1px -2px rgba(0,0,0,0.2);
+  }
+  div.firstCol{
+    width: 22rem;
+    padding-left: 1rem;
+  }
+  div.secondCol{
+    width: 55rem;
+    padding-right: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #192a31d0;;
+    border-color: #192a31d0
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff9800;
+    border-color: #d17906;
+  }
+
+  #confirmation {
+    color: green;
+  }
+
+  #error {
+    color: red;
+  }
+  #myWriteUp{
+    color: #ff9800;
+  }
