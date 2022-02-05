@@ -12,12 +12,11 @@ import TodoList from "../build/contracts/TodoList.json";
         window.ethereum
           .enable()
           .then(() => {
-            resolve(new Web3(window.ethereum));
+            return resolve(new Web3(window.ethereum));
           })
           .catch((e) => {
             reject(e);
           });
-        return;
       }
       // old meta/web3
       if (typeof window.web3 !== "undefined") {
@@ -142,6 +141,7 @@ import TodoList from "../build/contracts/TodoList.json";
             error.textContent = "";
             confirmation.textContent = `A new quest added by ${creator}`;
             availableQuest();
+            console.log();
           });
       } else {
         confirmation.textContent = "";
